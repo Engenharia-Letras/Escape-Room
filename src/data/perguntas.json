@@ -1,0 +1,134 @@
+{
+  "perguntas": [
+    {
+      "id": 1,
+      "pergunta": "Qual a principal característica da intertextualidade presente em \"Memórias Póstumas de Brás Cubas\"?",
+      "opcoes": [
+        {
+          "letra": "a",
+          "texto": "Utilização de citações diretas de outros autores para embasar as ideias do narrador.",
+          "correta": false
+        },
+        {
+          "letra": "b",
+          "texto": "Diálogo constante com obras clássicas e contemporâneas, subvertendo seus significados.",
+          "correta": true
+        },
+        {
+          "letra": "c",
+          "texto": "Referências explícitas a acontecimentos históricos e figuras públicas da época.",
+          "correta": false
+        },
+        {
+          "letra": "d",
+          "texto": "Uso de linguagem rebuscada e erudita para demonstrar a cultura do narrador.",
+          "correta": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pergunta": "Qual o efeito da intertextualidade na construção da voz narrativa de Brás Cubas?",
+      "opcoes": [
+        {
+          "letra": "a",
+          "texto": "Reforça a ideia de um narrador imparcial e objetivo.",
+          "correta": false
+        },
+        {
+          "letra": "b",
+          "texto": "Confere maior credibilidade e autoridade às suas opiniões.",
+          "correta": false
+        },
+        {
+          "letra": "c",
+          "texto": "Cria um efeito de ironia e distanciamento em relação aos fatos narrados.",
+          "correta": true
+        },
+        {
+          "letra": "d",
+          "texto": "Demonstra a influência direta de outros autores na sua escrita.",
+          "correta": false
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pergunta": "Identifique o tipo de intertextualidade presente na seguinte frase: \"O herói da saga enfrentou um desafio digno de Hércules.\"",
+      "opcoes": [
+        {
+          "letra": "a",
+          "texto": "Paródia",
+          "correta": false
+        },
+        {
+          "letra": "b",
+          "texto": "Citação",
+          "correta": false
+        },
+        {
+          "letra": "c",
+          "texto": "Alusão",
+          "correta": true
+        },
+        {
+          "letra": "d",
+          "texto": "Paráfrase",
+          "correta": false
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "pergunta": "Qual a relação entre a intertextualidade e a quebra da linearidade narrativa em \"Memórias Póstumas de Brás Cubas\"?",
+      "opcoes": [
+        {
+          "letra": "a",
+          "texto": "A intertextualidade reforça a estrutura linear da narrativa.",
+          "correta": false
+        },
+        {
+          "letra": "b",
+          "texto": "A quebra da linearidade é independente da presença de intertextualidade.",
+          "correta": false
+        },
+        {
+          "letra": "c",
+          "texto": "A intertextualidade contribui para a fragmentação da narrativa e a construção de um tempo não linear.",
+          "correta": true
+        },
+        {
+          "letra": "d",
+          "texto": "A intertextualidade não tem relação com a estrutura narrativa da obra.",
+          "correta": false
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "pergunta": "Qual a importância da intertextualidade para a crítica literária presente na obra Memórias Póstumas de Brás Cubas?",
+      "opcoes": [
+        {
+          "letra": "a",
+          "texto": "Permite uma leitura mais superficial e despretensiosa da obra.",
+          "correta": false
+        },
+        {
+          "letra": "b",
+          "texto": "Facilita a identificação de influências e fontes de inspiração do autor.",
+          "correta": false
+        },
+        {
+          "letra": "c",
+          "texto": "Torna a obra mais acessível a um público leigo.",
+          "correta": false
+        },
+        {
+          "letra": "d",
+          "texto": "Possibilita uma análise mais aprofundada da obra, relacionando-a com outras produções culturais.",
+          "correta": true
+        }
+      ]
+    }
+  ]
+}

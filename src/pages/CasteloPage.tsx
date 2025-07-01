@@ -1,11 +1,7 @@
-import "../css/castelo.css";
+import "../css/castelo.css"
 
 function CasteloPage() {
-    return (
-        <body>
-
-        </body>
-    )
+  return <body></body>
 }
 
-export default CasteloPage;
+export default CasteloPage

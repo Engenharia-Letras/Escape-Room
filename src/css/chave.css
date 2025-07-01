@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Bilbo:wght@400&family=Cinzel:wght@400;500;600&family=Italianno:wght@400&display=swap");
+
+body.chave-page {
+  background-image: url("../assets/bras-cubas.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: "Cinzel", serif;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.chave-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 20px;
+}
+
+.chave-box {
+  background-image: url("../assets/pergaminho.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 3px solid #8b4513;
+  border-radius: 15px;
+  padding: 40px;
+  max-width: 600px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.chave-icon {
+  width: 50px;
+  flex-shrink: 0;
+}
+
+.chave-content {
+  flex: 1;
+}
+
+.chave-texto {
+  font-family: "Italianno", cursive;
+  font-size: 1.8rem;
+  color: #2f1b14;
+  font-weight: 400;
+  line-height: 1.2;
+  margin: 0;
+  text-align: left;
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.3);
+}
+
+.continuar-button {
+  font-family: "Cinzel", serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #ffffff;
+  background: linear-gradient(145deg, #8b4513, #a0522d);
+  border: 2px solid #daa520;
+  border-radius: 10px;
+  padding: 12px 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: block;
+  margin: 30px auto 0;
+  text-decoration: none;
+  text-align: center;
+  width: fit-content;
+}
+
+.continuar-button:hover {
+  background: linear-gradient(145deg, #a0522d, #cd853f);
+  border-color: #ffd700;
+  transform: translateY(-1px);
+}
+
+@media (max-width: 768px) {
+  .chave-container {
+    padding: 15px;
+  }
+
+  .chave-box {
+    padding: 30px;
+    max-width: 90%;
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+  }
+
+  .chave-icon {
+    width: 40px;
+  }
+
+  .chave-texto {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .chave-box {
+    padding: 25px;
+  }
+
+  .chave-icon {
+    width: 35px;
+  }
+
+  .chave-texto {
+    font-size: 1.4rem;
+  }
+
+  .continuar-button {
+    font-size: 1rem;
+    padding: 10px 25px;
+  }
+}

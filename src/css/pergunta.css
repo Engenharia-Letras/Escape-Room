@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Bilbo:wght@400&family=Cinzel:wght@400;500;600&family=Italianno:wght@400&display=swap");
+
+body.pergunta-page {
+  background-image: url("../assets/bras-cubas.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: "Cinzel", serif;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.pergunta-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 0;
+  gap: 1.5rem;
+  overflow: hidden;
+}
+
+.pergunta-box {
+  background-image: url("../assets/pergaminho.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 3px solid #8b4513;
+  border-radius: 15px;
+  padding: 30px;
+  width: 600px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+  position: relative;
+}
+
+.pergunta-texto {
+  font-family: "Italianno", cursive;
+  font-size: 1.8rem;
+  color: #2f1b14;
+  text-align: center;
+  font-weight: 400;
+  line-height: 1.2;
+  margin: 0;
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.3);
+}
+
+.opcoes-box {
+  background-image: url("../assets/pergaminho.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 3px solid #8b4513;
+  border-radius: 15px;
+  padding: 30px;
+  width: 600px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+  position: relative;
+}
+
+.opcao {
+  font-family: "Italianno", cursive;
+  font-size: 1.4rem;
+  color: #2f1b14;
+  margin-bottom: 15px;
+  line-height: 1.2;
+  text-align: left;
+  cursor: pointer;
+  padding: 8px 12px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.3);
+}
+
+.opcao:hover {
+  background: rgba(139, 69, 19, 0.15);
+  border-color: #8b4513;
+  transform: translateX(3px);
+}
+
+.opcao:last-child {
+  margin-bottom: 0;
+}
+
+.letra-opcao {
+  font-weight: 700;
+  color: #8b4513;
+  font-size: 1.6rem;
+  margin-right: 8px;
+}
+
+@media (max-width: 768px) {
+  .pergunta-container {
+    padding: 15px;
+    gap: 1rem;
+  }
+
+  .pergunta-box {
+    padding: 25px;
+    max-width: 90%;
+  }
+
+  .opcoes-box {
+    padding: 25px;
+    max-width: 90%;
+  }
+
+  .pergunta-texto {
+    font-size: 1.6rem;
+  }
+
+  .opcao {
+    font-size: 1.2rem;
+    margin-bottom: 12px;
+  }
+
+  .letra-opcao {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .pergunta-box {
+    padding: 20px;
+  }
+
+  .opcoes-box {
+    padding: 20px;
+  }
+
+  .pergunta-texto {
+    font-size: 1.4rem;
+  }
+
+  .opcao {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+  }
+
+  .letra-opcao {
+    font-size: 1.3rem;
+  }
+}
