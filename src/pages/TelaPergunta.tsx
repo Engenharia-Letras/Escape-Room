@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react"
 import { useNavigate, useSearchParams } from "react-router-dom"
 import "../css/pergunta.css"
+import perguntasData from "../data/perguntas.json"
 
 interface Opcao {
   letra: string
@@ -32,8 +33,7 @@ function TelaPergunta() {
 
     const carregarPerguntas = async () => {
       try {
-        const response = await fetch("/src/data/perguntas.json")
-        const data: PerguntasData = await response.json()
+        const data = perguntasData as PerguntasData
         setPerguntas(data.perguntas)
 
         const perguntaId = Number.parseInt(searchParams.get("id") || "1")
