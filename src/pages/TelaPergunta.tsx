@@ -23,7 +23,7 @@ interface PerguntasData {
 function TelaPergunta() {
   const navigate = useNavigate()
   const [searchParams] = useSearchParams()
-  const [perguntas, setPerguntas] = useState<Pergunta[]>([])
+  const [, setPerguntas] = useState<Pergunta[]>([])
   const [perguntaAtual, setPerguntaAtual] = useState<Pergunta | null>(null)
   const [loading, setLoading] = useState(true)
 
